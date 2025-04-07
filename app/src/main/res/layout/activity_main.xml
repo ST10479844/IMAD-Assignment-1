@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="433dp"
+        android:layout_height="755dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-11dp"
+        tools:layout_editor_absoluteY="-12dp" />
+
+    <TextView
+        android:id="@+id/titletext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Meal suggestion App"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="28dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="59dp"/>
+    <!--width adjustments to text length-->
+    <!-- height adjustments to text content-->
+    <!--Display text-->
+    <!--text size-->
+    <!--black text colour-->
+    <!--centers the text horizontally-->
+    <EditText
+        android:id="@+id/timeoftheday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_light"
+        android:elevation="4dp"
+        android:ems="15"
+        android:hint="Enter time of the day"
+        android:textStyle="bold"
+        android:inputType="number"
+        android:padding="12dp"
+        android:textColor="#000000"
+        android:textColorHint="BLACK"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="202dp"
+        tools:ignore="MissingConstraints" />
+    <!--Unique ID for time of the day input-->
+    <!--Spans full width of the container-->
+    <!--Height adjusts based on content-->
+    <!--Hint text when empty-->
+    <!--Internal padding-->
+    <!--typed text colour set to black-->
+    <!--backgroud colour set to light green-->
+    <!--subtle shadow for depth-->
+    <!--top margin for spacing-->
+
+    <!--Button: Save time of the day-->
+    <Button
+        android:id="@+id/SavetimeofthedayButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/material_dynamic_neutral95"
+        android:text="@string/save_time_of_day"
+        android:textColor="@color/black"
+        android:layout_marginTop="12dp"
+        android:elevation="4dp"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="284dp"
+        tools:ignore="MissingConstraints" />
+    <!--Unique ID for save time of the day button-->
+    <!--background tint-->
+    <!--button text-->
+    <!--black text colour-->
+    <!--top margin for spacing-->
+    <!-- subtle shadow for depth-->
+
+    <!--Button:Suggest Meals-->
+    <Button
+        android:id="@+id/suggestmealsbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#d523de"
+        android:text="Suggest meals"
+        android:textColor="@color/black"
+        android:layout_marginTop="8dp"
+        android:elevation="4dp"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="361dp"
+        tools:ignore="MissingConstraints" />
+    <!--Unique ID for suggest meals button-->
+    <!--background tint set to d523de-->
+    <!--button text suggest meals-->
+    <!--black text colour-->
+    <!--top margin for spacing-->
+    <!-- subtle shadow for depth-->
+
+    <!--Button: Reset Button-->
+    <Button
+        android:id="@+id/ResetButton"
+        android:layout_width="456dp"
+        android:layout_height="54dp"
+        android:backgroundTint="#5526e0"
+        android:elevation="4dp"
+        android:text="Reset button"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="-23dp"
+        tools:layout_editor_absoluteY="438dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/resulttext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Meal suggestion will be shown here"
+        android:textColor="@color/black"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-10dp"
+        tools:layout_editor_absoluteY="573dp" />
+    <!--Unique ID for result text-->
+    <!--Text size set to 18sp -->
+    <!--text colour set to black-->
+    <!--gravity center-->
+    <!--top margin for spacing-->
+
+
+
+
+
+
+
+
